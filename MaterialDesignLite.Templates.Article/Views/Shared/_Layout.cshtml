@@ -40,11 +40,21 @@
     <link rel="canonical" href="http://www.example.com/">
     -->
 
-    <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="material.min.css">
-    <link rel="stylesheet" href="styles.css">
+
+    <environment names="Development">
+      <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+      <link rel="stylesheet" href="~/css/material.css">
+      <link rel="stylesheet" href="~/css/site.css">
+    </environment>
+    <environment names="Staging,Production">
+      <link href='//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+      <link rel="stylesheet" href="~/css/material.css" asp-file-version="true">
+      <link rel="stylesheet" href="~/css/site.css" asp-file-version="true">
+  </environment>
   </head>
   <body>
     <div class="demo-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
@@ -77,7 +87,14 @@
         </footer>
       </main>
     </div>
+    <environment names="Development">
+        <script src="~/material.js"></script>
+        <script src="~/js/site.js"></script>
+    </environment>
+    <environment names="Development">
+        <script src="~/material.js" asp-file-version="true"></script>
+        <script src="~/js/site.js" asp-file-version="true"></script>
+    </environment>
     @RenderSection("scripts", required: false)
-    <script src="../../material.min.js"></script>
   </body>
 </html>
