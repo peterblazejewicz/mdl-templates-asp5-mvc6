@@ -5,11 +5,17 @@ This project is WIP at the moment and things are in flux.
 
 ## Topics covered
 
-* production/stagin/development dependencies managment
+* production/stagin/development dependencies management
 * use of `project.json`
 * use of `package.json`
 * use of the Bower with Gulp to manage client side dependencies
 * TODO: Sass (SCSS) implementation of MDL/MDI
+
+## Templates
+
+### Article
+
+![Article Template](assets/article.png)
 
 ## Author
 
