@@ -40,6 +40,10 @@
       "npm install",
       "bower install",
       "gulp bower"
+    ],
+    "postbuild": [
+      "gulp clean",
+      "gulp min"
     ]
   }
 }
