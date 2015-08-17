@@ -1,0 +1,15 @@
+{
+  "name": "MaterialDesignLite.Templates.Article",
+  "private": true,
+  "dependencies": {
+    "material-design-lite": "~1.0.2"
+  },
+  "overrides": {
+    "material-design-lite": {
+      "main": [
+        "material{.js,.min.js,.min.js.map}",
+        "material{.css,.min.css,.min.css.map}"
+      ]
+    }
+  }
+}
