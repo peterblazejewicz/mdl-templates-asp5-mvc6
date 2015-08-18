@@ -17,6 +17,11 @@ This project is WIP at the moment and things are in flux.
 
 ![Article Template](assets/article.png)
 
+## Blog
+> A mobile focused responsive template that showcases image or text based blog entries, a subscription CTA, search & share links, and an expanded article page with comments, counters and bookmarking capabilities built-in.
+
+![Blog Template](assets/blog.jpg)
+
 ### Text Heavy Webpage Template
 
 ![Text Heavy Webpage Template](assets/text-heavy-webpage.jpg)
