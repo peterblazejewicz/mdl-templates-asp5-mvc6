@@ -2,7 +2,8 @@
   "name": "MaterialDesignLite.Templates.Blog",
   "private": true,
   "dependencies": {
-    "material-design-lite": "~1.0.2"
+    "material-design-lite": "~1.0.2",
+    "material-design-icons": "~2.0.0"
   },
   "overrides": {
     "material-design-lite": {
