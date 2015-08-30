@@ -1,104 +1,156 @@
 @{
     ViewData["Title"] = "Home Page";
 }
+<div class="android-be-together-section mdl-typography--text-center">
+  <div class="android-font android-slogan">be together. not the same.</div>
+  <div class="android-font android-sub-slogan">welcome to android... be yourself. do your thing. see what's going on.</div>
+  <div class="android-font android-create-character">
+    <a href=""><img src="images/andy.png"> create your android character</a>
+  </div>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/ASP-NET-Banners-01.png" alt="ASP.NET" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        Learn how to build ASP.NET apps that can run anywhere.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/Banner-02-VS.png" alt="Visual Studio" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        There are powerful new features in Visual Studio for building modern web apps.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/ASP-NET-Banners-02.png" alt="Package Management" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/Banner-01-Azure.png" alt="Microsoft Azure" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+  <a href="#screens">
+    <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+      <i class="material-icons">expand_more</i>
+    </button>
+  </a>
 </div>
+<div class="android-screen-section mdl-typography--text-center">
+  <a name="screens"></a>
+  <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
+  <div class="android-screens">
+    <div class="android-wear android-screen">
+      <a class="android-image-link" href="">
+        <img class="android-screen-image" src="images/wear-silver-on.png">
+        <img class="android-screen-image" src="images/wear-black-on.png">
+      </a>
+      <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android Wear</a>
+    </div>
+    <div class="android-phone android-screen">
+      <a class="android-image-link" href="">
+        <img class="android-screen-image" src="images/nexus6-on.jpg">
+      </a>
+      <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Phones</a>
+    </div>
+    <div class="android-tablet android-screen">
+      <a class="android-image-link" href="">
+        <img class="android-screen-image" src="images/nexus9-on.jpg">
+      </a>
+      <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Tablets</a>
+    </div>
+    <div class="android-tv android-screen">
+      <a class="android-image-link" href="">
+        <img class="android-screen-image" src="images/tv-on.jpg">
+      </a>
+      <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android TV</a>
+    </div>
+    <div class="android-auto android-screen">
+      <a class="android-image-link" href="">
+        <img class="android-screen-image" src="images/auto-on.jpg">
+      </a>
+      <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="">Coming Soon: Android Auto</a>
+    </div>
+  </div>
+</div>
+<div class="android-wear-section">
+  <div class="android-wear-band">
+    <div class="android-wear-band-text">
+      <div class="mdl-typography--display-2 mdl-typography--font-thin">The best of Google built in</div>
+      <p class="mdl-typography--headline mdl-typography--font-thin">
+        Android works perfectly with your favourite apps like Google Maps,
+        Calendar and YouTube.
+      </p>
+      <p>
+        <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" href="">
+          See what's new in the Play Store&nbsp;<i class="material-icons">chevron_right</i>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="android-customized-section">
+  <div class="android-customized-section-text">
+    <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
+    <p class="mdl-typography--font-light">
+      Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
+      <br>
+      <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
+    </p>
+  </div>
+  <div class="android-customized-section-image"></div>
+</div>
+<div class="android-more-section">
+  <div class="android-section-title mdl-typography--display-1-color-contrast">More from Android</div>
+  <div class="android-card-container mdl-grid">
+    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+      <div class="mdl-card__media">
+        <img src="images/more-from-1.png">
+      </div>
+      <div class="mdl-card__title">
+         <h4 class="mdl-card__title-text">Get going on Android</h4>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
+      </div>
+      <div class="mdl-card__actions">
+         <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+           Make the switch
+           <i class="material-icons">chevron_right</i>
+         </a>
+      </div>
+    </div>
 
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET 5 (MVC 6)</li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518007">Gulp</a> and <a href="http://go.microsoft.com/fwlink/?LinkId=518004">Bower</a> for managing client-side resources</li>
-            <li>Theming using <a href="http://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
+    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+      <div class="mdl-card__media">
+        <img src="images/more-from-4.png">
+      </div>
+      <div class="mdl-card__title">
+         <h4 class="mdl-card__title-text">Create your own Android character</h4>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
+      </div>
+      <div class="mdl-card__actions">
+         <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+           androidify.com
+           <i class="material-icons">chevron_right</i>
+         </a>
+      </div>
     </div>
-    <div class="col-md-3">
-        <h2>New concepts</h2>
-        <ul>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of ASP.NET 5</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518008">Fundamentals in ASP.NET 5</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517849">Client-Side Development using npm, Bower and Gulp</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517850">Develop on different platforms</a></li>
-        </ul>
+
+    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+      <div class="mdl-card__media">
+        <img src="images/more-from-2.png">
+      </div>
+      <div class="mdl-card__title">
+         <h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
+      </div>
+      <div class="mdl-card__actions">
+         <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+           Download now
+           <i class="material-icons">chevron_right</i>
+         </a>
+      </div>
     </div>
-    <div class="col-md-3">
-        <h2>Customize app</h2>
-        <ul>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398600">Add Controllers and Views</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398602">Add Data using EntityFramework</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398603">Add Authentication using Identity</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517848">Manage client-side packages using Bower/ Gulp</a></li>
-        </ul>
+
+    <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+      <div class="mdl-card__media">
+        <img src="images/more-from-3.png">
+      </div>
+      <div class="mdl-card__title">
+         <h4 class="mdl-card__title-text">Millions to choose from</h4>
+      </div>
+      <div class="mdl-card__supporting-text">
+        <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
+      </div>
+      <div class="mdl-card__actions">
+         <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+           Find apps
+           <i class="material-icons">chevron_right</i>
+         </a>
+      </div>
     </div>
-    <div class="col-md-3">
-        <h2>Deploy</h2>
-        <ul>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517851">Run your app locally</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517852">Run your app on .NET Core</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517853">Run commands in your app</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
-    </div>
+  </div>
 </div>
