@@ -31,6 +31,12 @@ dnu build
 dnx . kestrel
 ```
 
+### Android.com
+
+> A Material Design Lite version of the current android.com site, using the same content with a horizontal navigation, feature carousel and long form scrolling sub pages.
+
+![Android.com Template](assets/android.jpg)
+
 ### Article
 
 > A clean layout optimized for presenting text-based content with a breadcrumb nav, search, clear headers and a footer that utilizes a card-like structure to showcase the content.
