@@ -2,21 +2,19 @@
   "name": "MaterialDesignLite.Templates.Android",
   "private": true,
   "dependencies": {
-    "material-design-lite": "^1.0.4",
-    "mdi": "~1.1.70"
+    "material-design-icons": "~2.0.0",
+    "material-design-lite": "^1.0.4"
   },
   "overrides": {
+    "material-design-icons": {
+      "main": "iconfont/MaterialIcons-Regular{.eot,.ttf,.woff,.woff2}"
+    },
     "material-design-lite": {
       "main": [
         "material{.js,.min.js,.min.js.map}",
         "material{.css,.min.css,.min.css.map}"
       ]
-    },
-    "mdi": {
-      "main": [
-        "css/*.**",
-        "fonts/*.**"
-      ]
     }
+  }
   }
 }
