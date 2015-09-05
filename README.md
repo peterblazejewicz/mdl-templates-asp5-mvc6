@@ -4,7 +4,7 @@ Material Design Lite templates as ASP5 MVC6 web projects
 The original templates:
 [Material Design Lite Templates](http://www.getmdl.io/templates/)
 
-The templates are based on ASP.NET 5 `beta6` project structure and features.
+The templates are based on ASP.NET 5 `beta7` project structure and features.
 
 This project is WIP at the moment and things are in flux.
 
@@ -28,7 +28,7 @@ dnu restore
 ...
 dnu build
 ...
-dnx . kestrel
+dnx kestrel
 ```
 
 ### Android.com
