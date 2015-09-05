@@ -19,7 +19,7 @@ This 'postbuild' scripts in the `project.json` will clean existing and create ne
 
 To run project:
 ```
-dnx . kestrel
+dnx kestrel
 ```
 
 Thanks!
