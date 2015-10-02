@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "material-design-icons": "~2.0.0",
-    "material-design-lite": "^1.0.4"
+    "material-design-lite": "^1.0.5"
   },
   "overrides": {
     "material-design-icons": {
