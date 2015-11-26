@@ -1,9 +1,9 @@
 {
-  "name": "MaterialDesignLite.Templates.Article",
+  "name": "MaterialDesignLite.Templates.TextHeavyWebpage",
   "private": true,
   "dependencies": {
-    "material-design-icons": "~2.0.0",
-    "material-design-lite": "^1.0.4"
+    "material-design-icons": "^2.1.1",
+    "material-design-lite": "^1.0.6"
   },
   "overrides": {
     "material-design-icons": {
