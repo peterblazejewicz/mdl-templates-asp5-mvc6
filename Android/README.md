@@ -17,7 +17,15 @@ The `postrestore` scripts in `project.json` will install client side dependencie
 ```
 dnu build
 ```
-This 'postbuild' scripts in the `project.json` will clean existing and create new minified version of client-side JavaScript and CSS files
+
+**NOTE** On Mac OS X I'd advice to build and run project using `CoreCLR` to avoid `Mono` problems with files watcher. You could do this way under `RC1`:
+
+```
+dnvm use -r coreclr 1.0.0-rc1-final
+dnu restore
+dnu build --framework dnxcore50
+```
+This 'prebuild' scripts in the `project.json` will clean existing and create new minified version of client-side JavaScript and CSS files
 
 To run project:
 ```
