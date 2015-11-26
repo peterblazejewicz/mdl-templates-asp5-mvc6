@@ -4,9 +4,7 @@ Material Design Lite templates as ASP5 MVC6 web projects
 The original templates:
 [Material Design Lite Templates](http://www.getmdl.io/templates/)
 
-The templates are based on ASP.NET 5 `beta7` project structure and features.
-
-This project is WIP at the moment and things are in flux.
+The templates are based on ASP.NET 5 `RC1` project structure and features.
 
 ## Topics covered
 
@@ -14,9 +12,8 @@ This project is WIP at the moment and things are in flux.
 * use of `project.json` to execute client-side installation and build-time routines
 * use of `package.json` and `bower.json` for client-side dependencies management
 * use of the Bower with Gulp to manage and work with client side dependencies
-* TODO: Sass (SCSS) implementation of MDL/MDI
 
-Note: the templates use `postrestore` and `postbuild` script targets in `project.json` to integrate client side code management using NPM, Bower and Gulp.
+Note: the templates use `postrestore` and `prebuild` script targets in `project.json` to integrate client side code management using NPM, Bower and Gulp.
 
 ## Templates
 
@@ -29,6 +26,14 @@ dnu restore
 dnu build
 ...
 dnx kestrel
+```
+
+**NOTE** On Mac OS X I'd advice to build and run project using `CoreCLR` to avoid `Mono` problems with files watcher. You could do this way under `RC1`:
+
+```
+dnvm use -r coreclr 1.0.0-rc1-final
+dnu restore
+dnu build --framework dnxcore50
 ```
 
 ### Android.com
@@ -60,4 +65,4 @@ dnx kestrel
 
 ## Author
 
-@blazejewicz
+@peterblazejewicz

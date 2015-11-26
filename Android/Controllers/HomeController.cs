@@ -15,7 +15,7 @@ namespace MaterialDesignLite.Templates.Android.Controllers
 
         public IActionResult Error()
         {
-            return View("~/Views/Shared/Error.cshtml");
+            return View();
         }
     }
 }
